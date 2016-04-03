@@ -51,7 +51,7 @@ function delete_share_button() {
 //add new button
 function add_share_button(text) {
 	twttr.widgets.createShareButton(
-		"",
+		'nourl',
 		document.querySelector("#share-buttons"), {
 			size: "large",
 			text: text
