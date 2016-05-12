@@ -186,6 +186,7 @@ footer>p {
 }
 @media screen and (min-width: 900px) {
 	main {
+		margin-top: 100px;
 		width: 50%;
 	}
 }
